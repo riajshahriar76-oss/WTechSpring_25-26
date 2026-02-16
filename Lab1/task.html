@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<title>Student Registration Form</title>
+
+<head>
+    <h1> Student Registration Page </h1>
+</head>
+
+<form>
+
+<label for ="StudentName">Student Name: </label>
+<input type="text" id = "StudentName" name = "StudentName" placeholder="Enter The Name">
+<br><br>
+
+<label for = "StudentCGPA">Student CGPA: </label>
+<input type="text" id ="StudentCGPA" name = "StudentCGPA" placeholder="Enter The CGPA">
+<br><br>
+
+
+<input type = "radio" id ="GenderMale" name="Gender" value ="Male">
+<label for ="GenderMale"> Male </label>
+
+<br><br>
+
+<input type = "radio" id ="GenderFemale" name="Gender" value ="Female">
+<label for ="GenderFemale"> Female </label>
+<br><br>
+
+
+<label for = "Department"> Select Department: </label>
+<select>
+    <option values ="CSE"> CSE </option>
+    <option values ="BBA"> BBA  </option>
+    <option values ="LAW"> LAW </option>
+    <option values ="ECONOMICS"> ECONOMICS </option>
+</select>
+<br><br>
+
+
+<label for ="StudentID">Student ID: </label>
+<input type="text" id = "StudentID" name = "StudentID" >
+
+
+<br><br>
+<label for="Address"> Address: </label>
+<textarea id ="Address" name ="StudentAddress" rows="4" cols="20" placeholder="Enter The Address Here"></textarea>
+
+<br><br>
+<label for ="DOB"> Date of Birth: </label>
+<input type ="date" id ="DOB" name = "StudentDOB">
+<br><br>
+
+
+<label for ="StudentEmail">Email: </label>
+<input type="text" id = "StudentEmail" name = "StudentEmail" placeholder="Enter The Email">
+
+<br><br>
+
+<label for="Insertfile">Upload Your Grade Report: </label>
+<input type ="file" id="file" name ="file"> 
+
+<br><br>
+<input type="checkbox" id="Terms" name="Terms">
+<label for="Terms">I agree the terms and conditon </label>
+<br><br>
+
+<label for ="PhoneNumber">Phone Number: </label>
+<input type="text" id = "PhoneNumber" name = "PhoneNumber" placeholder="Enter The Number">
+
+<br><br>
+<label for="Submit">Submit Your Information </label>
+<br><br>
+<input type="submit" id ="submit" name ="submit" value="Submit ">
+
+<input type="button" id ="reset" name ="reset" value ="Reset ">
+
+</form>
+
+</html>
